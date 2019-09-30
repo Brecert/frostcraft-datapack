@@ -1,0 +1,30 @@
+{
+  "parent": "frostcraft:magic/convert_redstone",
+  "display": {
+    "icon": {
+      "item": "minecraft:barrier"
+    },
+    "title": {
+      "text": "Magical protections",
+      "translate": "frostcraft.advancements.magic.magical_protections.title"
+    },
+    "description": {
+      "text": "Protect some land with magic",
+      "translate": "frostcraft.advancements.magic.magical_protections.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "protected_land": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "protected_land"
+    ]
+  ]
+}

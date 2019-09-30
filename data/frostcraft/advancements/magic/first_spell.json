@@ -1,0 +1,30 @@
+{
+  "parent": "frostcraft:magic/convert_redstone",
+  "display": {
+    "icon": {
+      "item": "minecraft:snowball"
+    },
+    "title": {
+      "text": "Casting a spell",
+      "translate": "frostcraft.advancements.magic.cast_spell.title"
+    },
+    "description": {
+      "text": "Casting your first spell!",
+      "translate": "frostcraft.advancements.magic.cast_spell.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "casted_spell": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "casted_spell"
+    ]
+  ]
+}

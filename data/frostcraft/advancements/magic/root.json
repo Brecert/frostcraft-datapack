@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:blaze_rod"
+    },
+    "title": {
+      "text": "Magic",
+      "translate": "frostcraft.advancements.magic.root.title"
+    },
+    "description": {
+      "text": "The start of your magical adventure",
+      "translate": "frostcraft.advancements.magic.root.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "minecraft:textures/block/snow.png"
+  },
+  "criteria": {
+    "has_redstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:redstone",
+            "count": {
+              "min": 10
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_redstone"
+    ]
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "parent": "frostcraft:magic/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:redstone"
+    },
+    "title": {
+      "text": "Gathering mana",
+      "translate": "frostcraft.advancements.magic.convert_redtone.title"
+    },
+    "description": {
+      "text": "Convert some redstone to mana",
+      "translate": "frostcraft.advancements.magic.convert_redtone.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_mana": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "has_mana"
+    ]
+  ]
+}
